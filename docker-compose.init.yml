@@ -3,7 +3,7 @@ version: "3.4"
 services:
   init:
     build: ./content-init
-    image: ghcr.io/<yourgithubaccount>/fabrikam-init:main
+    image: docker.pkg.github.com/fthkucuk/mcw-continuous-delivery-lab-files/fabrikam-api:main
     depends_on:
       - mongo
     environment:
