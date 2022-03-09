@@ -13,6 +13,7 @@ $mongodbConnectionString = `
         --query 'connectionStrings[0].connectionString')
 
 
+
         
 
 # Seed CosmosDB database
