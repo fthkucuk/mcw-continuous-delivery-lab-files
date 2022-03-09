@@ -12,6 +12,9 @@ $mongodbConnectionString = `
         --type connection-strings `
         --query 'connectionStrings[0].connectionString')
 
+
+        
+
 # Seed CosmosDB database
 docker run -ti `
     -e MONGODB_CONNECTION="$mongodbConnectionString" `
