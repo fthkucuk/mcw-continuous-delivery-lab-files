@@ -1,4 +1,4 @@
-$studentprefix = "556899"
+$studentprefix = "557836"
 $githubAccount = "fthkucuk"
 $githubRepo = "mcw-continuous-delivery-lab-files"
 $resourcegroupName = "fabmedical-rg-" + $studentprefix

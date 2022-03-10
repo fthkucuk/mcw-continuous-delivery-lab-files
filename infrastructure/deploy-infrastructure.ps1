@@ -1,4 +1,4 @@
-$studentprefix = "556899"
+$studentprefix = "557836"
 $resourcegroupName = "fabmedical-rg-" + $studentprefix
 $cosmosDBName = "fabmedical-cdb-" + $studentprefix
 $webappName = "fabmedical-web-" + $studentprefix
@@ -7,9 +7,9 @@ $location1 = "westeurope"
 $location2 = "northeurope"
 
 # Create resource group
-az group create `
-    --location $location1 `
-    --name $resourcegroupName
+#az group create `
+#    --location $location1 `
+#    --name $resourcegroupName
 
 # Create CosmosDB database
 az cosmosdb create `

@@ -1,4 +1,4 @@
-$studentprefix = "556899"
+$studentprefix = "557836"
 $githubAccount = "fthkucuk"
 $resourcegroupName = "fabmedical-rg-" + $studentprefix
 $webappName = "fabmedical-web-" + $studentprefix
